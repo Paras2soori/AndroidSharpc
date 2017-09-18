@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jahan.uidemo.Fifthpage">
+
+        <RelativeLayout
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:id="@+id/et10"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@id/et10"
+                android:text="ساعت ورود"
+                android:layout_marginTop="25dp"
+                android:gravity="center_vertical"
+                android:textAlignment="center"
+                android:background="#b1ce8a"
+                android:id="@+id/tv10"/>
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:id="@+id/et11"
+                android:layout_marginLeft="25dp"
+                android:layout_below="@id/et10"
+                android:layout_marginTop="25dp"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="مدت زمان تخمینی پارک"
+                android:gravity="center_vertical"
+                android:textAlignment="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_below="@id/et10"
+                android:layout_toRightOf="@id/et11"
+                android:background="#b1ce8a"
+                android:id="@+id/tv11"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="81dp"
+                android:layout_marginTop="31dp"
+
+                android:text=" زمان رزرو جای پارک  20 دقیقه می باشد."
+                android:textAlignment="center"
+                android:gravity="center_vertical"
+                android:layout_below="@+id/tv11"
+                android:layout_alignLeft="@+id/et11"
+                android:layout_alignStart="@+id/et11"
+                android:layout_marginStart="81dp" />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="مبلغ رزرو :     1500 تومان"
+                android:textAlignment="center"
+                android:gravity="center_vertical"
+                android:background="#b1ce8a"
+                android:layout_marginTop="410dp"
+                android:layout_alignLeft="@+id/tv11"
+                android:layout_alignStart="@+id/tv11" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="پرداخت"
+                android:layout_marginTop="400dp"
+                android:layout_marginLeft="20dp"
+                android:background="#2d889c"
+                android:id="@+id/btn6"/>
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+

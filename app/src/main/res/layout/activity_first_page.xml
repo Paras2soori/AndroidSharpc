@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.jahan.uidemo.FirstPageActivity"
+    >
+
+
+
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp">
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="#b1ce8a"
+            android:onClick="sendMessage"
+            android:text="عضو هستم"
+            android:layout_above="@+id/btn2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="29dp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="#b1ce8a"
+            android:text="ایجاد حساب کابری"
+            android:onClick="sendMessage1"
+            android:id="@+id/btn2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/btn1"
+            android:layout_alignStart="@+id/btn1"
+            android:layout_marginBottom="36dp" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:background="@android:color/darker_gray"
+            android:src="@drawable/logo_animate"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+

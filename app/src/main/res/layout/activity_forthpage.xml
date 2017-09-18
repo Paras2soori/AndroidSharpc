@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jahan.uidemo.Forthpage">
+
+
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:id="@+id/et9"
+                android:layout_marginTop="56dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/btn5"
+                android:layout_alignStart="@+id/btn5" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/tv9"
+                android:text="کد تایید را وارد کنید"
+                android:gravity="center_vertical"
+                android:textAlignment="center"
+                android:background="#b1ce8a"
+                android:layout_alignBaseline="@+id/et9"
+                android:layout_alignBottom="@+id/et9"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/et9"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="35dp"
+                android:text="درصورت عدم دریافت پیامک برای ارسال مجدد روی دکمه ارسال مجدد کلیک کنید."
+                android:textAlignment="center"
+                android:gravity="center_vertical"
+                />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="ارسال مجدد"
+                android:layout_marginTop="300dp"
+                android:layout_marginLeft="20dp"
+                android:background="#2d889c"
+                android:id="@+id/btn5"/>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
